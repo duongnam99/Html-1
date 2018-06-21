@@ -227,7 +227,6 @@
     font-size: 18px;
 }
 .cube3-contact .location {
-    margin-top: 100px;
 }
 
 .cube3-contact .website {
@@ -257,4 +256,5 @@
 .part3 .cube3-contact .wrap-contact {
     width: 300px;
     margin-left: 90px;
+    margin-top:  100px;
 }
