@@ -222,11 +222,9 @@
     height:  30px;
 }
 
-.cube3-contact .phone, .email, .location {
+.contact {
     margin-top: 50px;
     font-size: 18px;
-}
-.cube3-contact .location {
 }
 
 .cube3-contact .website {
