@@ -1,15 +1,11 @@
 
-/*font-family: 'Open Sans', sans-serif;*/
 /*font-family: 'Montserrat', sans-serif;*/
-body{
-    /*background: #ecf0f1;*/
-}
+
 .wrap {
     width:  1200px;
     border:1px solid #80808052;
     margin:  auto;
     font-family: 'Montserrat', sans-serif;
-    /* font-family: 'Open Sans', sans-serif; */
 }
 .part1 .hey, .part2 .left, .part3 .cube1 {
     background-color: rgba(255,209,40,0.9)
@@ -25,7 +21,6 @@ body{
     width:  335px;
     height: 100%;
     margin-left:  90px;
-    /* background:  #ffcc31; */
     color:  white;
     float:  left;
     display:  inline-block;
@@ -33,7 +28,6 @@ body{
 }
 
 .hey .big {
-    /* font-family: 'Open Sans', sans-serif; */
     font-size: 90px;
     font-weight: 800;
     margin-top: 75px;
@@ -53,9 +47,8 @@ body{
     font-weight: 800;
     text-align:  right;
     color: #fbcc4b;
-    /* letter-spacing: 1px; */
 }
-.award .text1 {margin-top: 110px;margin-right: 40px;}
+.award .text1 {margin-top: 105px;margin-right: 40px;}
 
 .award .text2 {
     margin-right: 30px;
@@ -64,8 +57,7 @@ body{
     width: 90px;
     height:  90px;
     display: inline-block;
-    /* float: right; */
-    margin-top: 105px;
+    margin-top: 100px;
     background: rgba(255,209,40,0.8);
 }
 
@@ -75,9 +67,6 @@ body{
     background: #151d27;
 }
 
-.part2 .left {
-    /* background: #ddae27; */
-}
 .part2 .left .small-rectangle, .cube1 .small-rectangle {
     width: 65px;
     height:  20px;
@@ -91,7 +80,6 @@ body{
     margin-top: 20px;
     text-align:  left;
     width: 220px;
-    /* font-weight: 600; */
     letter-spacing: 1px;
 }
 .part2 .long-rectangle {
@@ -119,14 +107,12 @@ body{
 
 .part2 .right .text3 {
     font-size: 46px;
-    /* margin-top: -20px; */
 }
 
 .part2 .right .text2 {
     font-size: 85px;
     font-weight:  800;
     color: #fbcc4b;
-    /* margin-top: -20px; */
 }
 
 .part2 .right .text4 {
@@ -148,7 +134,6 @@ body{
     display: inline-block;
     width:  335px;
     height:  400px;
-    /* background-color: rgba(255,204,49,0.8); */
     margin-left:  90px;
     color: white;
     float:  left;
@@ -167,7 +152,6 @@ body{
     line-height: 40px;
 }
 .part3 .cube2 {
-    /* position:  absolute; */
     right: 90px;
     width: 685px;
     float: left;
@@ -202,7 +186,6 @@ body{
     position:  relative;
     height:  880px;
     width:  100%;
-    /* background-color: rgba(52, 152, 219,0.6); */
 }
 .cube2 .small-rectangle {
     width:  20px;
@@ -240,7 +223,6 @@ body{
 }
 
 .cube3-contact .phone, .email, .location {
-    margin-left:  90px;
     margin-top: 50px;
     font-size: 18px;
 }
@@ -249,7 +231,6 @@ body{
 }
 
 .cube3-contact .website {
-    margin-left:  90px;
     margin-top: 60px;
     font-weight: 700;
     font-size: 20px;
@@ -268,4 +249,12 @@ body{
     height:  880px;
     float: right;
     background: rgba(77,203,245,0.5);
+}
+.part3 .small-wrapper1 {
+    width:  425px;
+}
+
+.part3 .cube3-contact .wrap-contact {
+    width: 300px;
+    margin-left: 90px;
 }
